@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+  <head>
+    <!-- Character Encoding -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Epic Learn | React.js & Next.js Master Course</title>
+
+    <!-- Scripts & Styles -->
+    <link rel="stylesheet" href="./styles.css" />
+    <!-- External JavaScript -->
+    <script src="./day-01.js" defer></script>
+    <style>
+      /* Embedded Styles: Method 2 */
+      /* Tag Selectors for Styles */
+      body {
+        font-family: "Arial", sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      main,
+      footer {
+        padding: 20px;
+      }
+
+      /* ID Selectors for Styles */
+      #welcome {
+        background-color: #f0f0f0;
+        padding: 20px;
+        border-radius: 8px;
+      }
+
+      /* Class Selectors for Styles */
+      .main-title {
+        color: #2c3e50;
+        font-size: 36px;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header class="container">
+      <nav>
+        <ul>
+          <li><a href="#welcome">Welcome</a></li>
+          <li><a href="#course-content">Course Content</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container">
+      <h1 class="main-title">React.js & Next.js Master Course</h1>
+
+      <section id="welcome">
+        <h2>Welcome to the Course</h2>
+        <p>
+          In this course, you will learn how to build powerful, interactive web
+          applications using React and Next.js, two of the most popular
+          JavaScript libraries and frameworks for front-end development. Whether
+          you're just starting out with React or looking to strengthen your
+          existing knowledge, this course will guide you through everything you
+          need to create dynamic and efficient user interfaces.
+        </p>
+      </section>
+
+      <section id="course-content">
+        <h2>Course Content</h2>
+        <ul>
+          <li>Introduction to React.js</li>
+          <li>Components and Props</li>
+          <li>State Management</li>
+          <li>React Hooks</li>
+          <li>Routing with React Router</li>
+          <li>Introduction to Next.js</li>
+          <li>Server-Side Rendering (SSR)</li>
+          <li>Static Site Generation (SSG)</li>
+          <li>API Routes in Next.js</li>
+          <li>Deployment and Optimization</li>
+        </ul>
+      </section>
+
+      <section>
+        <!-- Inline Styles: Method 1 -->
+        <h2
+          style="
+            color: #8e44ad;
+            font-size: 30px;
+            margin-top: 34px;
+            text-align: center;
+            font-family: &quot;Arial&quot;, sans-serif;
+            font-weight: bold;
+          "
+        >
+          Ordered List with Inline Styles
+        </h2>
+        <ol>
+          <li>Introduction to React.js</li>
+          <li>Components and Props</li>
+          <li>State Management</li>
+          <li>React Hooks</li>
+          <li>Routing with React Router</li>
+        </ol>
+      </section>
+
+      <section>
+        <h2>HTML Document Structure</h2>
+        <img
+          src="./html-doc.webp"
+          alt="HTML Document Structure"
+          style="width: 100%; max-width: 600px; display: block; margin: 0 auto"
+        />
+
+        <h3>HTML Box Model</h3>
+
+        <img
+          src="./boxmodel.jpg"
+          alt="HTML Box Model"
+          style="width: 100%; max-width: 600px; display: block; margin: 0 auto"
+        />
+      </section>
+    </main>
+
+    <footer class="container">
+      <p>&copy; 2026 Epic Learn. All rights reserved.</p>
+    </footer>
+
+    <script>
+      // This is a embedded JavaScript code block that will run when the page loads
+      console.log("Welcome to the React.js & Next.js Master Course!");
+
+      // Example of a simple function to demonstrate JavaScript functionality
+      function greetUser(name) {
+        alert(`Hello, ${name}! Welcome to the course.`);
+      }
+
+      // greetUser("Student");
+    </script>
+  </body>
+</html>
